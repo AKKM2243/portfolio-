@@ -23,5 +23,22 @@ body {
 }
   
 #map {
-    height: 300px;
+    height: 370px;
+}
+
+
+.enlarge {
+  transition: transform 0.3s ease;    
+}
+
+.enlarge:hover {
+  transform: scale(1.03);
+}
+
+.enlargel {
+  transition: transform 0.3s ease;    
+}
+
+.enlargel:hover {
+  transform: scale(1.07);
 }

@@ -1,6 +1,6 @@
 // Leaflet Map
 
-var map = L.map('map').setView([16.809133, 96.131620], 13);
+var map = L.map('map').setView([16.809133, 96.131620], 15);
 
 var marker = L.marker([16.809133, 96.131620]).addTo(map);
 
