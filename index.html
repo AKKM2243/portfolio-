@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Leaflet CSS -->
+    <link href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container-fluid px-0">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <span class="material-icons-outlined">
+              integration_instructions
+              </span>
+            AKKM Developer
+          </a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container px-3">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#cer">Certificates</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+      <!-- Hero -->
+      <header class="bg-light py-5">
+        <div class="container px-5">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+              <div class="my-5">
+                <h2 class="text-center fw-bold mb-2">Hi! I am Aung Ko Ko Myat,</h2>
+                <h2 class="text-primary text-center fw-bold mb-2">a web developer</h2>
+                <p class="lead text-muted mb-4">
+                  "I am currently seeking an internship position. I have completed both basic and advanced courses at FairWay Technology, founded by Sar Ei Maung."
+                </p>
+                <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                  <a class="btn btn-primary btn-large text-uppercase" href="#about">
+                    Learn More
+                    <span class="material-icons-outlined ms-2">help_outline</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-xxl-6 justify-content-center">
+              <img class="img-fluid rounded-3 my-5" src="images/hero.jpeg" alt="Hero Image">
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- End Hero -->
+
+      <main>
+        <!-- About -->
+        <section id="about" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">About</h2>
+              <p class="lead text-muted mb-5">
+                I'm a budding programmer passionate about web development. I've recently delved into the world of coding and have a solid grasp of JavaScript, PHP, and Laravel. My journey began with the fascination of creating interactive websites, and I've been enjoying every moment of this learning adventure.
+              </p>
+            </div>
+          </div>
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <span class="material-icons-outlined m-auto text-primary">favorite</span>
+                </div>
+                <h5>What I'm excited about!</h5>
+                <p class="text-muted mb-0">
+                  I'm excited about the endless possibilities that programming offers. I'm particularly interested in building user-friendly websites and applications that make a difference. I'm here to learn, collaborate, and contribute to the world of web development.
+                </p>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <span class="material-icons-outlined m-auto text-primary">code</span>
+                </div>
+                <h5>Development</h5>
+                <p class="text-muted mb-0">
+                  <strong>JavaScript:</strong>
+                   I can create dynamic and responsive user interfaces to enhance the user experience. <br>
+                  <strong>PHP:</strong> I've explored server-side scripting, enabling me to build dynamic web applications. <br>
+                  <strong>Laravel:</strong> I've started working with Laravel, discovering its power in crafting robust and efficient web solutions.<br>
+                </p>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-5 about">
+                  <span class="material-icons-outlined m-auto text-primary">flag_circle</span>
+                </div>
+                <h5>Carrier Goal</h5>
+                <p class="text-muted mb-0">
+                  I'm always eager to learn and connect with fellow developers. Whether it's brainstorming new project ideas or solving coding challenges, I'm up for the challenge. Let's learn and grow together!
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End About -->
+
+        <hr>
+
+        <!-- Certificates -->
+        <section id="cer" class="text-center py-1">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">Certificates</h2>
+              <p class="lead text-muted mb-5">View some of my latest Certificates</p>
+            </div>
+          </div>
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/Cert1.jpg" alt="Project 1">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Program Basic<br> Course</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">HTML</div>
+                      <div class="badge bg-primary rounded-pill">CSS</div>
+                      <div class="badge bg-primary rounded-pill">JavaScript</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/Cert2.jpg" alt="Project 2">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Professional Web Developer <br> Course</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">JavaScript</div>
+                      <div class="badge bg-primary rounded-pill">PHP</div>
+                      <div class="badge bg-primary rounded-pill">Laravel</div>
+                      <div class="badge bg-primary rounded-pill">MySQL</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Certificates -->
+
+        <hr>
+
+        <!-- Contact -->
+        <section id="contact" class="text-center py-5">
+          <div class="container py-5">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">Contact</h2>
+              <p class="lead text-muted mb-5">
+                Recruiting an intern? I would love to hear
+                from you.
+              </p>
+            </div>
+          </div>
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col-xl-5 col-xxl-6 mb-5">
+                <div id="map"></div>
+              </div>
+              <div class="col-lg-8 col-xl-7 col-xxl-6 mb-5">
+                <div class="mb-5">
+                  <h6 class="text-uppercase mb-2">Address</h6>
+                  <p class="lead mb-0">Yangon, Sanchaung, Ma Kyi Kyi Road.</p>
+                </div>
+                <div class="mb-5">
+                  <h6 class="text-uppercase mb-2">Phone</h6>
+                  <p class="lead mb-0">09783746934</p>
+                </div>
+                <div class="mb-5">
+                  <h6 class="text-uppercase mb-2">Email</h6>
+                  <p class="lead mb-0">akkmakkm467@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Contact -->
+      </main>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+      <div class="container px-5 mb-2">By AKKM</div>
+    </footer>
+    <hr>
+    <!-- End Footer -->
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
